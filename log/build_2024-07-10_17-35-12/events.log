@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.001250] (mm_client) JobQueued: {'identifier': 'mm_client', 'dependencies': OrderedDict()}
+[0.001468] (mm_interfaces) JobQueued: {'identifier': 'mm_interfaces', 'dependencies': OrderedDict()}
+[0.001630] (mm_client) JobStarted: {'identifier': 'mm_client'}
+[0.037600] (mm_interfaces) JobStarted: {'identifier': 'mm_interfaces'}
+[0.095768] (-) TimerEvent: {}
+[0.196663] (-) TimerEvent: {}
+[0.297763] (-) TimerEvent: {}
+[0.398939] (-) TimerEvent: {}
+[0.500004] (-) TimerEvent: {}
+[0.601063] (-) TimerEvent: {}
+[0.702128] (-) TimerEvent: {}
+[0.803272] (-) TimerEvent: {}
+[0.904401] (-) TimerEvent: {}
+[1.005519] (-) TimerEvent: {}
+[1.106776] (-) TimerEvent: {}
+[1.207766] (-) TimerEvent: {}
+[1.308695] (-) TimerEvent: {}
+[1.409929] (-) TimerEvent: {}
+[1.511057] (-) TimerEvent: {}
+[1.611940] (-) TimerEvent: {}
+[1.712859] (-) TimerEvent: {}
+[1.813770] (-) TimerEvent: {}
+[1.914813] (-) TimerEvent: {}
+[2.018655] (-) TimerEvent: {}
+[2.032865] (mm_interfaces) JobProgress: {'identifier': 'mm_interfaces', 'progress': 'cmake'}
+[2.038127] (mm_interfaces) JobProgress: {'identifier': 'mm_interfaces', 'progress': 'build'}
+[2.045203] (mm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nums/uw_mm/build/mm_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/nums/uw_mm/build/mm_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nums'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nums/uw_mm/install/mm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nums'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nums'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.0.123'), ('SYSTEMD_EXEC_PID', '2256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('NVM_DIR', '/home/nums/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nums/uw_mm/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nums'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nums'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nums/anaconda3/condabin:/home/nums/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin'), ('SESSION_MANAGER', 'local/numfor-XPS-15-95:@/tmp/.ICE-unix/2221,unix/numfor-XPS-15-95:/tmp/.ICE-unix/2221'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7caef71_427e_4e34_9761_c8a2e9de6960'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nums/uw_mm/install/mm_interfaces:/home/nums/uw_mm/install/mm_client:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nums/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.123:11311/'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nums/uw_mm/build/mm_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nums/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '192.168.0.185'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/nums/uw_mm/install/mm_interfaces:/home/nums/uw_mm/install/mm_client:/opt/ros/humble')]), 'shell': False}
+[2.118955] (-) TimerEvent: {}
+[2.220181] (-) TimerEvent: {}
+[2.321350] (-) TimerEvent: {}
+[2.376206] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.421603] (-) TimerEvent: {}
+[2.444821] (mm_interfaces) StdoutLine: {'line': b'[  3%] Built target mm_interfaces__cpp\n'}
+[2.463418] (mm_interfaces) StdoutLine: {'line': b'[ 12%] Built target mm_interfaces__rosidl_generator_c\n'}
+[2.521839] (-) TimerEvent: {}
+[2.536802] (mm_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_mm_interfaces\n'}
+[2.541913] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.554399] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.568881] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.592935] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.610089] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.622050] (-) TimerEvent: {}
+[2.632047] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.677037] (mm_interfaces) StdoutLine: {'line': b'[ 22%] Built target mm_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.722314] (-) TimerEvent: {}
+[2.726790] (mm_interfaces) StdoutLine: {'line': b'[ 35%] Built target mm_interfaces__rosidl_typesupport_c\n'}
+[2.728759] (mm_interfaces) StdoutLine: {'line': b'[ 41%] Built target mm_interfaces__rosidl_typesupport_cpp\n'}
+[2.739801] (mm_interfaces) StdoutLine: {'line': b'[ 51%] Built target mm_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.742490] (mm_interfaces) StdoutLine: {'line': b'[ 61%] Built target mm_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.785360] (mm_interfaces) StdoutLine: {'line': b'[ 70%] Built target mm_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.822557] (-) TimerEvent: {}
+[2.923928] (-) TimerEvent: {}
+[2.926293] (mm_interfaces) StdoutLine: {'line': b'[ 70%] Built target mm_interfaces\n'}
+[3.024208] (-) TimerEvent: {}
+[3.061902] (mm_interfaces) StdoutLine: {'line': b'[ 74%] Built target mm_interfaces__py\n'}
+[3.124467] (-) TimerEvent: {}
+[3.127305] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.224729] (-) TimerEvent: {}
+[3.226154] (mm_interfaces) StdoutLine: {'line': b'[ 80%] Built target mm_interfaces__rosidl_generator_py\n'}
+[3.325013] (-) TimerEvent: {}
+[3.338646] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.340103] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.343283] (mm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mm_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.425245] (-) TimerEvent: {}
+[3.461892] (mm_interfaces) StdoutLine: {'line': b'[ 87%] Built target mm_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.463416] (mm_interfaces) StdoutLine: {'line': b'[ 93%] Built target mm_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.464832] (mm_interfaces) StdoutLine: {'line': b'[100%] Built target mm_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.525500] (-) TimerEvent: {}
+[3.626610] (-) TimerEvent: {}
+[3.727834] (-) TimerEvent: {}
+[3.828967] (-) TimerEvent: {}
+[3.930066] (-) TimerEvent: {}
+[4.031261] (-) TimerEvent: {}
+[4.132342] (-) TimerEvent: {}
+[4.233448] (-) TimerEvent: {}
+[4.334553] (-) TimerEvent: {}
+[4.435738] (-) TimerEvent: {}
+[4.536950] (-) TimerEvent: {}
+[4.638075] (-) TimerEvent: {}
+[4.678987] (mm_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.683192] (mm_interfaces) StdoutLine: {'line': b'writing mm_interfaces.egg-info/PKG-INFO\n'}
+[4.684652] (mm_interfaces) StdoutLine: {'line': b'writing dependency_links to mm_interfaces.egg-info/dependency_links.txt\n'}
+[4.685934] (mm_interfaces) StdoutLine: {'line': b'writing top-level names to mm_interfaces.egg-info/top_level.txt\n'}
+[4.710945] (mm_interfaces) StdoutLine: {'line': b"reading manifest file 'mm_interfaces.egg-info/SOURCES.txt'\n"}
+[4.718146] (mm_interfaces) StdoutLine: {'line': b"writing manifest file 'mm_interfaces.egg-info/SOURCES.txt'\n"}
+[4.738340] (-) TimerEvent: {}
+[4.839672] (-) TimerEvent: {}
+[4.871824] (mm_client) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mm_client', 'build', '--build-base', '/home/nums/uw_mm/build/mm_client/build', 'install', '--record', '/home/nums/uw_mm/build/mm_client/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nums/uw_mm/src/mm_client', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nums', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nums/uw_mm/install/mm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nums', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/nums', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_IP': '192.168.0.123', 'SYSTEMD_EXEC_PID': '2256', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'NVM_DIR': '/home/nums/.nvm', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nums/uw_mm/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nums', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nums', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/nums/anaconda3/condabin:/home/nums/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin', 'SESSION_MANAGER': 'local/numfor-XPS-15-95:@/tmp/.ICE-unix/2221,unix/numfor-XPS-15-95:/tmp/.ICE-unix/2221', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7caef71_427e_4e34_9761_c8a2e9de6960', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nums/uw_mm/install/mm_interfaces:/home/nums/uw_mm/install/mm_client:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/nums/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://192.168.0.123:11311/', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nums/uw_mm/build/mm_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/nums/anaconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nums/uw_mm/build/mm_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': '192.168.0.185', 'COLCON': '1', 'VTE_VERSION': '6800', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/home/nums/uw_mm/install/mm_interfaces'}, 'shell': False}
+[4.890161] (mm_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_mm_interfaces_egg\n'}
+[4.939928] (-) TimerEvent: {}
+[4.960901] (mm_interfaces) CommandEnded: {'returncode': 0}
+[5.040181] (-) TimerEvent: {}
+[5.141391] (-) TimerEvent: {}
+[5.242499] (-) TimerEvent: {}
+[5.343961] (-) TimerEvent: {}
+[5.393975] (mm_interfaces) JobProgress: {'identifier': 'mm_interfaces', 'progress': 'install'}
+[5.444181] (-) TimerEvent: {}
+[5.478418] (mm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nums/uw_mm/build/mm_interfaces'], 'cwd': '/home/nums/uw_mm/build/mm_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nums'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nums/uw_mm/install/mm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nums'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/nums'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.0.123'), ('SYSTEMD_EXEC_PID', '2256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('NVM_DIR', '/home/nums/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nums/uw_mm/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nums'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nums'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nums/anaconda3/condabin:/home/nums/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin'), ('SESSION_MANAGER', 'local/numfor-XPS-15-95:@/tmp/.ICE-unix/2221,unix/numfor-XPS-15-95:/tmp/.ICE-unix/2221'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7caef71_427e_4e34_9761_c8a2e9de6960'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nums/uw_mm/install/mm_interfaces:/home/nums/uw_mm/install/mm_client:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/nums/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.123:11311/'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nums/uw_mm/build/mm_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nums/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '192.168.0.185'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/nums/uw_mm/install/mm_interfaces:/home/nums/uw_mm/install/mm_client:/opt/ros/humble')]), 'shell': False}
+[5.544089] (mm_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.545429] (-) TimerEvent: {}
+[5.547472] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/ament_index/resource_index/rosidl_interfaces/mm_interfaces\n'}
+[5.549094] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces\n'}
+[5.550198] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg\n'}
+[5.551158] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail\n'}
+[5.552170] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__functions.c\n'}
+[5.552968] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__type_support.h\n'}
+[5.553791] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__struct.h\n'}
+[5.555187] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__functions.h\n'}
+[5.556198] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/joystick_buttons.h\n'}
+[5.557013] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.558179] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/library_path.sh\n'}
+[5.558991] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/library_path.dsv\n'}
+[5.560145] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_generator_c.so\n'}
+[5.561530] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces\n'}
+[5.562269] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg\n'}
+[5.563315] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail\n'}
+[5.564052] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__rosidl_typesupport_fastrtps_c.h\n'}
+[5.564764] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.565681] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.566377] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces\n'}
+[5.567641] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg\n'}
+[5.568739] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail\n'}
+[5.569661] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__rosidl_typesupport_introspection_c.h\n'}
+[5.570959] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__type_support.c\n'}
+[5.571719] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.572427] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.573314] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_c.so\n'}
+[5.574041] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces\n'}
+[5.574709] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg\n'}
+[5.575785] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail\n'}
+[5.577253] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__struct.hpp\n'}
+[5.577947] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__builder.hpp\n'}
+[5.578916] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__traits.hpp\n'}
+[5.579659] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/joystick_buttons.hpp\n'}
+[5.580343] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces\n'}
+[5.580998] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg\n'}
+[5.581993] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail\n'}
+[5.582716] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/dds_fastrtps\n'}
+[5.585052] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.586453] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.587821] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.588905] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces\n'}
+[5.590001] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg\n'}
+[5.591398] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail\n'}
+[5.593005] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.594464] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__type_support.cpp\n'}
+[5.595545] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.596528] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.597465] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/pythonpath.sh\n'}
+[5.598312] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/pythonpath.dsv\n'}
+[5.599130] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info\n'}
+[5.599622] (mm_interfaces) StdoutLine: {'line': b'-- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.600096] (mm_interfaces) StdoutLine: {'line': b'-- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.600549] (mm_interfaces) StdoutLine: {'line': b'-- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.601063] (mm_interfaces) StdoutLine: {'line': b'-- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.601551] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces\n'}
+[5.601993] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/libmm_interfaces__rosidl_generator_py.so\n'}
+[5.602418] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.602950] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/_mm_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.603443] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/_mm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.603877] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg\n'}
+[5.604335] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg/_joystick_buttons.py\n'}
+[5.604877] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg/__init__.py\n'}
+[5.605305] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg/_joystick_buttons_s.c\n'}
+[5.605729] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/__init__.py\n'}
+[5.606154] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/_mm_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.606766] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.607647] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.645655] (-) TimerEvent: {}
+[5.746596] (-) TimerEvent: {}
+[5.847772] (-) TimerEvent: {}
+[5.854948] (mm_interfaces) StdoutLine: {'line': b"Listing '/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces'...\n"}
+[5.856020] (mm_interfaces) StdoutLine: {'line': b"Listing '/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg'...\n"}
+[5.885553] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.888372] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.891589] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.894782] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_generator_py.so\n'}
+[5.896639] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/msg/JoystickButtons.idl\n'}
+[5.898560] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/msg/JoystickButtons.msg\n'}
+[5.900815] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/ament_index/resource_index/package_run_dependencies/mm_interfaces\n'}
+[5.901752] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/ament_index/resource_index/parent_prefix_path/mm_interfaces\n'}
+[5.902229] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/ament_prefix_path.sh\n'}
+[5.902686] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.903751] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/path.sh\n'}
+[5.904695] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/path.dsv\n'}
+[5.905461] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/local_setup.bash\n'}
+[5.906860] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/local_setup.sh\n'}
+[5.908089] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/local_setup.zsh\n'}
+[5.909324] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/local_setup.dsv\n'}
+[5.910494] (mm_interfaces) StdoutLine: {'line': b'-- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.dsv\n'}
+[5.911515] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/ament_index/resource_index/packages/mm_interfaces\n'}
+[5.912634] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.913636] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.915383] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.917044] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.918698] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.919764] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.921020] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.921974] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.923063] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.923956] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.924849] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.925787] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.926603] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.927562] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.928463] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.929363] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.930940] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.934303] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.939375] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.940762] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.941593] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.943238] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.944205] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.945974] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.947060] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfacesConfig.cmake\n'}
+[5.948611] (-) TimerEvent: {}
+[5.949458] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfacesConfig-version.cmake\n'}
+[5.951130] (mm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.xml\n'}
+[5.954339] (mm_interfaces) CommandEnded: {'returncode': 0}
+[6.049642] (-) TimerEvent: {}
+[6.150976] (-) TimerEvent: {}
+[6.251924] (-) TimerEvent: {}
+[6.352885] (-) TimerEvent: {}
+[6.455132] (-) TimerEvent: {}
+[6.490983] (mm_interfaces) JobEnded: {'identifier': 'mm_interfaces', 'rc': 0}
+[6.555364] (-) TimerEvent: {}
+[6.656427] (-) TimerEvent: {}
+[6.757415] (-) TimerEvent: {}
+[6.858377] (-) TimerEvent: {}
+[6.959367] (-) TimerEvent: {}
+[6.974465] (mm_client) StdoutLine: {'line': b'running egg_info\n'}
+[6.978542] (mm_client) StdoutLine: {'line': b'writing ../../build/mm_client/mm_client.egg-info/PKG-INFO\n'}
+[6.979794] (mm_client) StdoutLine: {'line': b'writing dependency_links to ../../build/mm_client/mm_client.egg-info/dependency_links.txt\n'}
+[6.981088] (mm_client) StdoutLine: {'line': b'writing entry points to ../../build/mm_client/mm_client.egg-info/entry_points.txt\n'}
+[6.982148] (mm_client) StdoutLine: {'line': b'writing requirements to ../../build/mm_client/mm_client.egg-info/requires.txt\n'}
+[6.983216] (mm_client) StdoutLine: {'line': b'writing top-level names to ../../build/mm_client/mm_client.egg-info/top_level.txt\n'}
+[6.995981] (mm_client) StdoutLine: {'line': b"reading manifest file '../../build/mm_client/mm_client.egg-info/SOURCES.txt'\n"}
+[7.001850] (mm_client) StdoutLine: {'line': b"writing manifest file '../../build/mm_client/mm_client.egg-info/SOURCES.txt'\n"}
+[7.003288] (mm_client) StdoutLine: {'line': b'running build\n'}
+[7.004178] (mm_client) StdoutLine: {'line': b'running build_py\n'}
+[7.005333] (mm_client) StdoutLine: {'line': b'copying mm_client/mm_client_node.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client\n'}
+[7.011251] (mm_client) StdoutLine: {'line': b'running install\n'}
+[7.013166] (mm_client) StdoutLine: {'line': b'running install_lib\n'}
+[7.019367] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/mm_client_node.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client\n'}
+[7.024227] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/mm_client_node.py to mm_client_node.cpython-310.pyc\n'}
+[7.028354] (mm_client) StdoutLine: {'line': b'running install_data\n'}
+[7.029580] (mm_client) StdoutLine: {'line': b'copying package.xml -> /home/nums/uw_mm/install/mm_client/share/mm_client\n'}
+[7.030756] (mm_client) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.043469] (mm_client) StdoutLine: {'line': b"removing '/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.045394] (mm_client) StdoutLine: {'line': b'Copying ../../build/mm_client/mm_client.egg-info to /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client-0.0.0-py3.10.egg-info\n'}
+[7.051110] (mm_client) StdoutLine: {'line': b'running install_scripts\n'}
+[7.059634] (-) TimerEvent: {}
+[7.160586] (-) TimerEvent: {}
+[7.184841] (mm_client) StdoutLine: {'line': b'Installing mm_client_node script to /home/nums/uw_mm/install/mm_client/lib/mm_client\n'}
+[7.188818] (mm_client) StdoutLine: {'line': b"writing list of installed files to '/home/nums/uw_mm/build/mm_client/install.log'\n"}
+[7.261022] (-) TimerEvent: {}
+[7.310323] (mm_client) CommandEnded: {'returncode': 0}
+[7.361604] (mm_client) JobEnded: {'identifier': 'mm_client', 'rc': 0}
+[7.366369] (-) TimerEvent: {}
+[7.366973] (-) EventReactorShutdown: {}

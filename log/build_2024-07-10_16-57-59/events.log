@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000714] (mm_client) JobQueued: {'identifier': 'mm_client', 'dependencies': OrderedDict()}
+[0.000925] (mm_client) JobStarted: {'identifier': 'mm_client'}
+[0.094046] (-) TimerEvent: {}
+[0.195151] (-) TimerEvent: {}
+[0.296324] (-) TimerEvent: {}
+[0.397190] (-) TimerEvent: {}
+[0.498113] (-) TimerEvent: {}
+[0.599018] (-) TimerEvent: {}
+[0.699910] (-) TimerEvent: {}
+[0.800825] (-) TimerEvent: {}
+[0.901800] (-) TimerEvent: {}
+[1.002718] (-) TimerEvent: {}
+[1.103989] (-) TimerEvent: {}
+[1.205109] (-) TimerEvent: {}
+[1.306214] (-) TimerEvent: {}
+[1.407381] (-) TimerEvent: {}
+[1.508296] (-) TimerEvent: {}
+[1.609158] (-) TimerEvent: {}
+[1.710015] (-) TimerEvent: {}
+[1.810935] (-) TimerEvent: {}
+[1.911826] (-) TimerEvent: {}
+[2.013198] (-) TimerEvent: {}
+[2.114914] (-) TimerEvent: {}
+[2.215942] (-) TimerEvent: {}
+[2.317052] (-) TimerEvent: {}
+[2.418112] (-) TimerEvent: {}
+[2.519230] (-) TimerEvent: {}
+[2.620280] (-) TimerEvent: {}
+[2.721332] (-) TimerEvent: {}
+[2.822395] (-) TimerEvent: {}
+[2.923498] (-) TimerEvent: {}
+[3.024389] (-) TimerEvent: {}
+[3.125261] (-) TimerEvent: {}
+[3.226465] (-) TimerEvent: {}
+[3.327467] (-) TimerEvent: {}
+[3.428413] (-) TimerEvent: {}
+[3.529396] (-) TimerEvent: {}
+[3.630366] (-) TimerEvent: {}
+[3.731406] (-) TimerEvent: {}
+[3.832402] (-) TimerEvent: {}
+[3.933372] (-) TimerEvent: {}
+[4.034332] (-) TimerEvent: {}
+[4.135310] (-) TimerEvent: {}
+[4.236181] (-) TimerEvent: {}
+[4.337089] (-) TimerEvent: {}
+[4.437959] (-) TimerEvent: {}
+[4.517649] (mm_client) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mm_client', 'build', '--build-base', '/home/nums/uw_mm/build/mm_client/build', 'install', '--record', '/home/nums/uw_mm/build/mm_client/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nums/uw_mm/src/mm_client', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nums', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nums', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/nums/uw_mm/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_IP': '192.168.0.123', 'SYSTEMD_EXEC_PID': '2256', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'NVM_DIR': '/home/nums/.nvm', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nums', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nums', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/nums/anaconda3/condabin:/home/nums/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin:/home/nums/:/home/nums/.local/bin:/home/nums/anaconda3/bin:/home/nums/flutter/bin', 'SESSION_MANAGER': 'local/numfor-XPS-15-95:@/tmp/.ICE-unix/2221,unix/numfor-XPS-15-95:/tmp/.ICE-unix/2221', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7caef71_427e_4e34_9761_c8a2e9de6960', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/nums/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://192.168.0.123:11311/', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nums/uw_mm/build/mm_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/nums/anaconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nums/uw_mm/build/mm_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': '192.168.0.185', 'COLCON': '1', 'VTE_VERSION': '6800', 'NVM_RC_VERSION': ''}, 'shell': False}
+[4.538142] (-) TimerEvent: {}
+[4.638994] (-) TimerEvent: {}
+[4.740003] (-) TimerEvent: {}
+[4.841077] (-) TimerEvent: {}
+[4.942120] (-) TimerEvent: {}
+[5.043254] (-) TimerEvent: {}
+[5.144223] (-) TimerEvent: {}
+[5.245100] (-) TimerEvent: {}
+[5.345969] (-) TimerEvent: {}
+[5.446911] (-) TimerEvent: {}
+[5.547761] (-) TimerEvent: {}
+[5.648619] (-) TimerEvent: {}
+[5.749646] (-) TimerEvent: {}
+[5.850715] (-) TimerEvent: {}
+[5.951828] (-) TimerEvent: {}
+[6.052877] (-) TimerEvent: {}
+[6.153891] (-) TimerEvent: {}
+[6.254947] (-) TimerEvent: {}
+[6.269659] (mm_client) StdoutLine: {'line': b'running egg_info\n'}
+[6.273363] (mm_client) StdoutLine: {'line': b'creating ../../build/mm_client/mm_client.egg-info\n'}
+[6.274734] (mm_client) StdoutLine: {'line': b'writing ../../build/mm_client/mm_client.egg-info/PKG-INFO\n'}
+[6.275956] (mm_client) StdoutLine: {'line': b'writing dependency_links to ../../build/mm_client/mm_client.egg-info/dependency_links.txt\n'}
+[6.277089] (mm_client) StdoutLine: {'line': b'writing entry points to ../../build/mm_client/mm_client.egg-info/entry_points.txt\n'}
+[6.277955] (mm_client) StdoutLine: {'line': b'writing requirements to ../../build/mm_client/mm_client.egg-info/requires.txt\n'}
+[6.279090] (mm_client) StdoutLine: {'line': b'writing top-level names to ../../build/mm_client/mm_client.egg-info/top_level.txt\n'}
+[6.279952] (mm_client) StdoutLine: {'line': b"writing manifest file '../../build/mm_client/mm_client.egg-info/SOURCES.txt'\n"}
+[6.291089] (mm_client) StdoutLine: {'line': b"reading manifest file '../../build/mm_client/mm_client.egg-info/SOURCES.txt'\n"}
+[6.295673] (mm_client) StdoutLine: {'line': b"writing manifest file '../../build/mm_client/mm_client.egg-info/SOURCES.txt'\n"}
+[6.297146] (mm_client) StdoutLine: {'line': b'running build\n'}
+[6.298408] (mm_client) StdoutLine: {'line': b'running build_py\n'}
+[6.299441] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/build/mm_client/build\n'}
+[6.300327] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/build/mm_client/build/lib\n'}
+[6.301640] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/build/mm_client/build/lib/mm_client\n'}
+[6.302675] (mm_client) StdoutLine: {'line': b'copying mm_client/__init__.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client\n'}
+[6.303764] (mm_client) StdoutLine: {'line': b'copying mm_client/MMClientNode.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client\n'}
+[6.304881] (mm_client) StdoutLine: {'line': b'copying mm_client/OculusController.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client\n'}
+[6.305820] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader\n'}
+[6.306716] (mm_client) StdoutLine: {'line': b'copying mm_client/oculus_reader/__init__.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader\n'}
+[6.307482] (mm_client) StdoutLine: {'line': b'copying mm_client/oculus_reader/setup.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader\n'}
+[6.307948] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader\n'}
+[6.308689] (mm_client) StdoutLine: {'line': b'copying mm_client/oculus_reader/oculus_reader/install.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader\n'}
+[6.309153] (mm_client) StdoutLine: {'line': b'copying mm_client/oculus_reader/oculus_reader/FPS_counter.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader\n'}
+[6.309593] (mm_client) StdoutLine: {'line': b'copying mm_client/oculus_reader/oculus_reader/reader.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader\n'}
+[6.310041] (mm_client) StdoutLine: {'line': b'copying mm_client/oculus_reader/oculus_reader/__init__.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader\n'}
+[6.310468] (mm_client) StdoutLine: {'line': b'copying mm_client/oculus_reader/oculus_reader/buttons_parser.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader\n'}
+[6.310954] (mm_client) StdoutLine: {'line': b'copying mm_client/oculus_reader/oculus_reader/visualize_oculus_transforms.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader\n'}
+[6.314458] (mm_client) StdoutLine: {'line': b'running install\n'}
+[6.317234] (mm_client) StdoutLine: {'line': b'running install_lib\n'}
+[6.321748] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client\n'}
+[6.323023] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader\n'}
+[6.324289] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader\n'}
+[6.325307] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader/install.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader\n'}
+[6.326483] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader/FPS_counter.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader\n'}
+[6.327464] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader/reader.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader\n'}
+[6.328760] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader/__init__.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader\n'}
+[6.329962] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader/buttons_parser.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader\n'}
+[6.331022] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/oculus_reader/visualize_oculus_transforms.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader\n'}
+[6.331907] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/__init__.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader\n'}
+[6.332886] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/oculus_reader/setup.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader\n'}
+[6.333952] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/__init__.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client\n'}
+[6.334831] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/MMClientNode.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client\n'}
+[6.335699] (mm_client) StdoutLine: {'line': b'copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/OculusController.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client\n'}
+[6.336631] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader/install.py to install.cpython-310.pyc\n'}
+[6.337655] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader/FPS_counter.py to FPS_counter.cpython-310.pyc\n'}
+[6.338623] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader/reader.py to reader.cpython-310.pyc\n'}
+[6.348180] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader/__init__.py to __init__.cpython-310.pyc\n'}
+[6.349608] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader/buttons_parser.py to buttons_parser.cpython-310.pyc\n'}
+[6.351992] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/oculus_reader/visualize_oculus_transforms.py to visualize_oculus_transforms.cpython-310.pyc\n'}
+[6.354625] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/__init__.py to __init__.cpython-310.pyc\n'}
+[6.355712] (-) TimerEvent: {}
+[6.356834] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/oculus_reader/setup.py to setup.cpython-310.pyc\n'}
+[6.357902] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/__init__.py to __init__.cpython-310.pyc\n'}
+[6.358945] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/MMClientNode.py to MMClientNode.cpython-310.pyc\n'}
+[6.361236] (mm_client) StdoutLine: {'line': b'byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/OculusController.py to OculusController.cpython-310.pyc\n'}
+[6.363071] (mm_client) StdoutLine: {'line': b'running install_data\n'}
+[6.364219] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/install/mm_client/share/ament_index\n'}
+[6.364832] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/install/mm_client/share/ament_index/resource_index\n'}
+[6.365754] (mm_client) StdoutLine: {'line': b'creating /home/nums/uw_mm/install/mm_client/share/ament_index/resource_index/packages\n'}
+[6.366427] (mm_client) StdoutLine: {'line': b'copying resource/mm_client -> /home/nums/uw_mm/install/mm_client/share/ament_index/resource_index/packages\n'}
+[6.366984] (mm_client) StdoutLine: {'line': b'copying package.xml -> /home/nums/uw_mm/install/mm_client/share/mm_client\n'}
+[6.367469] (mm_client) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.379995] (mm_client) StdoutLine: {'line': b'Copying ../../build/mm_client/mm_client.egg-info to /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client-0.0.0-py3.10.egg-info\n'}
+[6.386430] (mm_client) StdoutLine: {'line': b'running install_scripts\n'}
+[6.455977] (-) TimerEvent: {}
+[6.523455] (mm_client) StdoutLine: {'line': b"writing list of installed files to '/home/nums/uw_mm/build/mm_client/install.log'\n"}
+[6.556275] (-) TimerEvent: {}
+[6.646902] (mm_client) CommandEnded: {'returncode': 0}
+[6.656696] (-) TimerEvent: {}
+[6.737624] (mm_client) JobEnded: {'identifier': 'mm_client', 'rc': 0}
+[6.742338] (-) EventReactorShutdown: {}

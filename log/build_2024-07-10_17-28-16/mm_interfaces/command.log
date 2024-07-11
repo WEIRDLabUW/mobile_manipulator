@@ -1,0 +1,6 @@
+Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake /home/nums/uw_mm/src/mm_interfaces -DCMAKE_INSTALL_PREFIX=/home/nums/uw_mm/install/mm_interfaces
+Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake /home/nums/uw_mm/src/mm_interfaces -DCMAKE_INSTALL_PREFIX=/home/nums/uw_mm/install/mm_interfaces
+Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --build /home/nums/uw_mm/build/mm_interfaces -- -j8 -l8
+Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --build /home/nums/uw_mm/build/mm_interfaces -- -j8 -l8
+Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --install /home/nums/uw_mm/build/mm_interfaces
+Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --install /home/nums/uw_mm/build/mm_interfaces

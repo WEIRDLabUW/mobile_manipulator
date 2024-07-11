@@ -1,0 +1,215 @@
+[0.903s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.904s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x740c17449690>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x740c17449240>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x740c17449240>>)
+[2.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.316s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nums/uw_mm'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.410s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.414s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.414s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extensions ['ignore', 'ignore_ament_install']
+[2.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extension 'ignore'
+[2.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extension 'ignore_ament_install'
+[2.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extensions ['colcon_pkg']
+[2.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extension 'colcon_pkg'
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extensions ['colcon_meta']
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extension 'colcon_meta'
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extensions ['ros']
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extension 'ros'
+[2.428s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/mm_client': Error(s) in package 'src/mm_client/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 21, column 2
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extensions ['cmake', 'python']
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extension 'cmake'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extension 'python'
+[2.430s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/mm_client' passes arguments to the setup() function which requires a different identification extension than 'python'
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extensions ['python_setup_py']
+[2.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_client) by extension 'python_setup_py'
+[4.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mm_client' with type 'python' and name 'mm_client'
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_interfaces) by extension 'ignore'
+[4.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_interfaces) by extension 'ignore_ament_install'
+[4.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_interfaces) by extensions ['colcon_pkg']
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_interfaces) by extension 'colcon_pkg'
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_interfaces) by extensions ['colcon_meta']
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_interfaces) by extension 'colcon_meta'
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_interfaces) by extensions ['ros']
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/mm_interfaces) by extension 'ros'
+[4.389s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mm_interfaces' with type 'ros.ament_cmake' and name 'mm_interfaces'
+[4.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.532s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/nums/uw_mm/install
+[4.541s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[4.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.839s] Level 5:colcon.colcon_core.verb:set package 'mm_client' build argument 'cmake_args' from command line to 'None'
+[4.840s] Level 5:colcon.colcon_core.verb:set package 'mm_client' build argument 'cmake_target' from command line to 'None'
+[4.840s] Level 5:colcon.colcon_core.verb:set package 'mm_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.840s] Level 5:colcon.colcon_core.verb:set package 'mm_client' build argument 'cmake_clean_cache' from command line to 'False'
+[4.841s] Level 5:colcon.colcon_core.verb:set package 'mm_client' build argument 'cmake_clean_first' from command line to 'False'
+[4.841s] Level 5:colcon.colcon_core.verb:set package 'mm_client' build argument 'cmake_force_configure' from command line to 'False'
+[4.841s] Level 5:colcon.colcon_core.verb:set package 'mm_client' build argument 'ament_cmake_args' from command line to 'None'
+[4.842s] Level 5:colcon.colcon_core.verb:set package 'mm_client' build argument 'catkin_cmake_args' from command line to 'None'
+[4.842s] Level 5:colcon.colcon_core.verb:set package 'mm_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.842s] DEBUG:colcon.colcon_core.verb:Building package 'mm_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nums/uw_mm/build/mm_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nums/uw_mm/install/mm_client', 'merge_install': False, 'path': '/home/nums/uw_mm/src/mm_client', 'symlink_install': False, 'test_result_base': None}
+[4.846s] Level 5:colcon.colcon_core.verb:set package 'mm_interfaces' build argument 'cmake_args' from command line to 'None'
+[4.846s] Level 5:colcon.colcon_core.verb:set package 'mm_interfaces' build argument 'cmake_target' from command line to 'None'
+[4.847s] Level 5:colcon.colcon_core.verb:set package 'mm_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.847s] Level 5:colcon.colcon_core.verb:set package 'mm_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[4.847s] Level 5:colcon.colcon_core.verb:set package 'mm_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'mm_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'mm_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[4.848s] Level 5:colcon.colcon_core.verb:set package 'mm_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[4.849s] Level 5:colcon.colcon_core.verb:set package 'mm_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.849s] DEBUG:colcon.colcon_core.verb:Building package 'mm_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nums/uw_mm/build/mm_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nums/uw_mm/install/mm_interfaces', 'merge_install': False, 'path': '/home/nums/uw_mm/src/mm_interfaces', 'symlink_install': False, 'test_result_base': None}
+[4.850s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.856s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nums/uw_mm/src/mm_client'
+[4.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.893s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nums/uw_mm/src/mm_interfaces' with build type 'ament_cmake'
+[4.894s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nums/uw_mm/src/mm_interfaces'
+[4.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --build /home/nums/uw_mm/build/mm_interfaces -- -j8 -l8
+[9.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --build /home/nums/uw_mm/build/mm_interfaces -- -j8 -l8
+[9.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nums/uw_mm/src/mm_client': PYTHONPATH=/home/nums/uw_mm/build/mm_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mm_client build --build-base /home/nums/uw_mm/build/mm_client/build install --record /home/nums/uw_mm/build/mm_client/install.log --single-version-externally-managed install_data
+[10.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --install /home/nums/uw_mm/build/mm_interfaces
+[10.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mm_interfaces)
+[10.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --install /home/nums/uw_mm/build/mm_interfaces
+[10.762s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces' for CMake module files
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces' for CMake config files
+[10.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('mm_interfaces', 'cmake_prefix_path')
+[10.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/cmake_prefix_path.ps1'
+[10.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/cmake_prefix_path.dsv'
+[10.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/cmake_prefix_path.sh'
+[10.783s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/lib'
+[10.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('mm_interfaces', 'ld_library_path_lib')
+[10.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/ld_library_path_lib.ps1'
+[10.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/ld_library_path_lib.dsv'
+[10.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/ld_library_path_lib.sh'
+[10.792s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/bin'
+[10.792s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/lib/pkgconfig/mm_interfaces.pc'
+[10.794s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/lib/python3.10/site-packages'
+[10.795s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/bin'
+[10.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.ps1'
+[10.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.dsv'
+[10.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.sh'
+[10.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.bash'
+[10.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.zsh'
+[10.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nums/uw_mm/install/mm_interfaces/share/colcon-core/packages/mm_interfaces)
+[11.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mm_interfaces)
+[11.227s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces' for CMake module files
+[11.231s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces' for CMake config files
+[11.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('mm_interfaces', 'cmake_prefix_path')
+[11.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/cmake_prefix_path.ps1'
+[11.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/cmake_prefix_path.dsv'
+[11.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/cmake_prefix_path.sh'
+[11.242s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/lib'
+[11.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('mm_interfaces', 'ld_library_path_lib')
+[11.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/ld_library_path_lib.ps1'
+[11.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/ld_library_path_lib.dsv'
+[11.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/hook/ld_library_path_lib.sh'
+[11.252s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/bin'
+[11.253s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/lib/pkgconfig/mm_interfaces.pc'
+[11.254s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/lib/python3.10/site-packages'
+[11.256s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_interfaces/bin'
+[11.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.ps1'
+[11.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.dsv'
+[11.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.sh'
+[11.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.bash'
+[11.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.zsh'
+[11.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nums/uw_mm/install/mm_interfaces/share/colcon-core/packages/mm_interfaces)
+[12.328s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_client' for CMake module files
+[12.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nums/uw_mm/src/mm_client' returned '0': PYTHONPATH=/home/nums/uw_mm/build/mm_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mm_client build --build-base /home/nums/uw_mm/build/mm_client/build install --record /home/nums/uw_mm/build/mm_client/install.log --single-version-externally-managed install_data
+[12.334s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_client' for CMake config files
+[12.341s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_client/lib'
+[12.342s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_client/bin'
+[12.342s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_client/lib/pkgconfig/mm_client.pc'
+[12.345s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages'
+[12.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('mm_client', 'pythonpath')
+[12.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_client/share/mm_client/hook/pythonpath.ps1'
+[12.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nums/uw_mm/install/mm_client/share/mm_client/hook/pythonpath.dsv'
+[12.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nums/uw_mm/install/mm_client/share/mm_client/hook/pythonpath.sh'
+[12.365s] Level 1:colcon.colcon_core.environment:checking '/home/nums/uw_mm/install/mm_client/bin'
+[12.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mm_client)
+[12.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_client/share/mm_client/package.ps1'
+[12.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nums/uw_mm/install/mm_client/share/mm_client/package.dsv'
+[12.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_client/share/mm_client/package.sh'
+[12.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_client/share/mm_client/package.bash'
+[12.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/nums/uw_mm/install/mm_client/share/mm_client/package.zsh'
+[12.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nums/uw_mm/install/mm_client/share/colcon-core/packages/mm_client)
+[12.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.384s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.420s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.478s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nums/uw_mm/install/local_setup.ps1'
+[12.485s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nums/uw_mm/install/_local_setup_util_ps1.py'
+[12.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nums/uw_mm/install/setup.ps1'
+[12.499s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nums/uw_mm/install/local_setup.sh'
+[12.502s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nums/uw_mm/install/_local_setup_util_sh.py'
+[12.505s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nums/uw_mm/install/setup.sh'
+[12.511s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nums/uw_mm/install/local_setup.bash'
+[12.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nums/uw_mm/install/setup.bash'
+[12.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nums/uw_mm/install/local_setup.zsh'
+[12.523s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nums/uw_mm/install/setup.zsh'

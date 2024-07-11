@@ -1,0 +1,209 @@
+[1.928s] Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake /home/nums/uw_mm/src/mm_interfaces -DCMAKE_INSTALL_PREFIX=/home/nums/uw_mm/install/mm_interfaces
+[2.004s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.847s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.863s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.895s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.150s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.990s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.096s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.105s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.302s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.303s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.304s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.304s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.452s] -- Found PythonExtra: .so  
+[8.763s] -- Configuring done
+[8.977s] -- Generating done
+[8.993s] -- Build files have been written to: /home/nums/uw_mm/build/mm_interfaces
+[9.030s] Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake /home/nums/uw_mm/src/mm_interfaces -DCMAKE_INSTALL_PREFIX=/home/nums/uw_mm/install/mm_interfaces
+[9.041s] Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --build /home/nums/uw_mm/build/mm_interfaces -- -j8 -l8
+[9.273s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.349s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.392s] [  6%] Built target ament_cmake_python_copy_mm_interfaces
+[11.467s] [  6%] Built target mm_interfaces__cpp
+[11.554s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.556s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.557s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.615s] running egg_info
+[11.629s] creating mm_interfaces.egg-info
+[11.630s] writing mm_interfaces.egg-info/PKG-INFO
+[11.632s] writing dependency_links to mm_interfaces.egg-info/dependency_links.txt
+[11.634s] writing top-level names to mm_interfaces.egg-info/top_level.txt
+[11.636s] writing manifest file 'mm_interfaces.egg-info/SOURCES.txt'
+[11.640s] [ 19%] [32mBuilding C object CMakeFiles/mm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mm_interfaces/msg/detail/joystick_buttons__functions.c.o[0m
+[11.661s] reading manifest file 'mm_interfaces.egg-info/SOURCES.txt'
+[11.671s] writing manifest file 'mm_interfaces.egg-info/SOURCES.txt'
+[11.895s] [ 19%] Built target ament_cmake_python_build_mm_interfaces_egg
+[12.095s] [ 22%] [32m[1mLinking C shared library libmm_interfaces__rosidl_generator_c.so[0m
+[12.386s] [ 22%] Built target mm_interfaces__rosidl_generator_c
+[12.472s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.474s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.476s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.729s] [ 35%] [32mBuilding CXX object CMakeFiles/mm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mm_interfaces/msg/joystick_buttons__type_support.cpp.o[0m
+[13.823s] [ 38%] [32mBuilding CXX object CMakeFiles/mm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mm_interfaces/msg/detail/joystick_buttons__type_support.cpp.o[0m
+[14.230s] [ 41%] [32mBuilding CXX object CMakeFiles/mm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mm_interfaces/msg/detail/dds_fastrtps/joystick_buttons__type_support.cpp.o[0m
+[15.103s] [ 45%] [32mBuilding CXX object CMakeFiles/mm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mm_interfaces/msg/joystick_buttons__type_support.cpp.o[0m
+[15.190s] [ 48%] [32mBuilding C object CMakeFiles/mm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mm_interfaces/msg/detail/joystick_buttons__type_support.c.o[0m
+[15.362s] [ 51%] [32mBuilding CXX object CMakeFiles/mm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mm_interfaces/msg/detail/joystick_buttons__type_support_c.cpp.o[0m
+[15.391s] [ 54%] [32m[1mLinking CXX shared library libmm_interfaces__rosidl_typesupport_c.so[0m
+[15.500s] [ 58%] [32m[1mLinking C shared library libmm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.796s] [ 58%] Built target mm_interfaces__rosidl_typesupport_introspection_c
+[15.820s] [ 58%] Built target mm_interfaces__rosidl_typesupport_c
+[16.728s] [ 61%] [32m[1mLinking CXX shared library libmm_interfaces__rosidl_typesupport_cpp.so[0m
+[17.075s] [ 61%] Built target mm_interfaces__rosidl_typesupport_cpp
+[17.587s] [ 64%] [32m[1mLinking CXX shared library libmm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[17.670s] [ 67%] [32m[1mLinking CXX shared library libmm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.863s] [ 67%] Built target mm_interfaces__rosidl_typesupport_introspection_cpp
+[18.149s] [ 67%] Built target mm_interfaces__rosidl_typesupport_fastrtps_cpp
+[18.223s] [ 70%] [32m[1mLinking CXX shared library libmm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[18.715s] [ 70%] Built target mm_interfaces__rosidl_typesupport_fastrtps_c
+[18.840s] [ 70%] Built target mm_interfaces
+[18.963s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.199s] [ 74%] Built target mm_interfaces__py
+[21.326s] [ 77%] [32mBuilding C object CMakeFiles/mm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mm_interfaces/msg/_joystick_buttons_s.c.o[0m
+[22.011s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/mm_interfaces/libmm_interfaces__rosidl_generator_py.so[0m
+[22.283s] [ 80%] Built target mm_interfaces__rosidl_generator_py
+[22.432s] [ 83%] [32mBuilding C object CMakeFiles/mm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mm_interfaces/_mm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.433s] [ 87%] [32mBuilding C object CMakeFiles/mm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mm_interfaces/_mm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[22.445s] [ 90%] [32mBuilding C object CMakeFiles/mm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mm_interfaces/_mm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.203s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/mm_interfaces/mm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.270s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mm_interfaces/mm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.284s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mm_interfaces/mm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.427s] [100%] Built target mm_interfaces__rosidl_typesupport_c__pyext
+[23.492s] [100%] Built target mm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[23.513s] [100%] Built target mm_interfaces__rosidl_typesupport_introspection_c__pyext
+[23.586s] Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --build /home/nums/uw_mm/build/mm_interfaces -- -j8 -l8
+[24.019s] Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --install /home/nums/uw_mm/build/mm_interfaces
+[24.071s] -- Install configuration: ""
+[24.073s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/ament_index/resource_index/rosidl_interfaces/mm_interfaces
+[24.074s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces
+[24.075s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg
+[24.076s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail
+[24.077s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__functions.c
+[24.078s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__type_support.h
+[24.079s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__struct.h
+[24.080s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__functions.h
+[24.081s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/joystick_buttons.h
+[24.083s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[24.083s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/library_path.sh
+[24.084s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/library_path.dsv
+[24.086s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_generator_c.so
+[24.090s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_generator_c.so" to ""
+[24.091s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces
+[24.092s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg
+[24.094s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail
+[24.095s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__rosidl_typesupport_fastrtps_c.h
+[24.096s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.097s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_fastrtps_c.so
+[24.099s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[24.100s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces
+[24.101s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg
+[24.102s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail
+[24.103s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__rosidl_typesupport_introspection_c.h
+[24.104s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__type_support.c
+[24.106s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.107s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_introspection_c.so
+[24.108s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[24.109s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_c.so
+[24.111s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_c.so" to ""
+[24.112s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces
+[24.114s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg
+[24.115s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail
+[24.116s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__struct.hpp
+[24.118s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__builder.hpp
+[24.119s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__traits.hpp
+[24.120s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/joystick_buttons.hpp
+[24.120s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces
+[24.121s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg
+[24.123s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail
+[24.124s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/dds_fastrtps
+[24.124s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__rosidl_typesupport_fastrtps_cpp.hpp
+[24.126s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.126s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[24.127s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.128s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces
+[24.129s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg
+[24.130s] -- Up-to-date: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail
+[24.130s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__rosidl_typesupport_introspection_cpp.hpp
+[24.131s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/include/mm_interfaces/mm_interfaces/msg/detail/joystick_buttons__type_support.cpp
+[24.132s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_introspection_cpp.so
+[24.134s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[24.135s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_cpp.so
+[24.138s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_typesupport_cpp.so" to ""
+[24.139s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/pythonpath.sh
+[24.140s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/pythonpath.dsv
+[24.141s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info
+[24.143s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[24.144s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[24.145s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[24.146s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[24.147s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces
+[24.148s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/libmm_interfaces__rosidl_generator_py.so
+[24.149s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.150s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/_mm_interfaces_s.ep.rosidl_typesupport_c.c
+[24.151s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/_mm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.152s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg
+[24.153s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg/_joystick_buttons.py
+[24.154s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg/__init__.py
+[24.155s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg/_joystick_buttons_s.c
+[24.156s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/__init__.py
+[24.157s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/_mm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[24.158s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.159s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.435s] Listing '/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces'...
+[24.436s] Compiling '/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/__init__.py'...
+[24.436s] Listing '/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg'...
+[24.436s] Compiling '/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg/__init__.py'...
+[24.437s] Compiling '/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/msg/_joystick_buttons.py'...
+[24.463s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.467s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.469s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.473s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.475s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.478s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/local/lib/python3.10/dist-packages/mm_interfaces/mm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.479s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_generator_py.so
+[24.483s] -- Set runtime path of "/home/nums/uw_mm/install/mm_interfaces/lib/libmm_interfaces__rosidl_generator_py.so" to ""
+[24.484s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/msg/JoystickButtons.idl
+[24.485s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/msg/JoystickButtons.msg
+[24.487s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/ament_index/resource_index/package_run_dependencies/mm_interfaces
+[24.489s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/ament_index/resource_index/parent_prefix_path/mm_interfaces
+[24.490s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/ament_prefix_path.sh
+[24.491s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/ament_prefix_path.dsv
+[24.492s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/path.sh
+[24.494s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/environment/path.dsv
+[24.495s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/local_setup.bash
+[24.496s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/local_setup.sh
+[24.498s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/local_setup.zsh
+[24.499s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/local_setup.dsv
+[24.500s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.dsv
+[24.501s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/ament_index/resource_index/packages/mm_interfaces
+[24.503s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_cExport.cmake
+[24.504s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[24.505s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[24.506s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.507s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[24.508s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.509s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_cExport.cmake
+[24.510s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[24.512s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_cppExport.cmake
+[24.513s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.514s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.515s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[24.516s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.517s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_cppExport.cmake
+[24.518s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[24.520s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_pyExport.cmake
+[24.521s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/export_mm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[24.523s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/rosidl_cmake-extras.cmake
+[24.524s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.525s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[24.526s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[24.527s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.533s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.534s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.535s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfacesConfig.cmake
+[24.536s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/cmake/mm_interfacesConfig-version.cmake
+[24.537s] -- Installing: /home/nums/uw_mm/install/mm_interfaces/share/mm_interfaces/package.xml
+[24.549s] Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake --install /home/nums/uw_mm/build/mm_interfaces

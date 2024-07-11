@@ -1,0 +1,50 @@
+[2.008s] Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake /home/nums/uw_mm/src/mm_interfaces -DCMAKE_INSTALL_PREFIX=/home/nums/uw_mm/install/mm_interfaces
+[2.096s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.003s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.036s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.612s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[4.613s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[4.614s]   mm_interfaces --arguments-file
+[4.614s]   /home/nums/uw_mm/build/mm_interfaces/rosidl_adapter__arguments__mm_interfaces.json
+[4.615s]   --output-dir
+[4.615s]   /home/nums/uw_mm/build/mm_interfaces/rosidl_adapter/mm_interfaces
+[4.616s]   --output-file
+[4.616s]   /home/nums/uw_mm/build/mm_interfaces/rosidl_adapter/mm_interfaces.idls)
+[4.617s]   returned error code 1:
+[4.618s] 
+[4.619s]   Error processing 'bool B' of 'mm_interfaces/JoystickButtons': ''B' is an
+[4.619s]   invalid field name.  It should have the pattern
+[4.620s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[4.621s] 
+[4.622s]   Traceback (most recent call last):
+[4.623s] 
+[4.624s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[4.624s]       return _run_code(code, main_globals, None,
+[4.625s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[4.626s]       exec(code, run_globals)
+[4.627s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[4.628s]       sys.exit(main())
+[4.629s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[4.630s]       abs_idl_file = convert_to_idl(
+[4.631s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[4.632s]       return convert_msg_to_idl(
+[4.632s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[4.633s]       msg = parse_message_string(package_name, input_file.stem, content)
+[4.634s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[4.635s]       fields.append(Field(
+[4.636s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[4.636s]       raise NameError(
+[4.637s] 
+[4.638s]   NameError: 'B' is an invalid field name.  It should have the pattern
+[4.639s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[4.640s] 
+[4.641s] Call Stack (most recent call first):
+[4.642s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[4.642s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[4.643s] 
+[4.644s] [0m
+[4.645s] -- Configuring incomplete, errors occurred!
+[4.646s] See also "/home/nums/uw_mm/build/mm_interfaces/CMakeFiles/CMakeOutput.log".
+[4.657s] Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake /home/nums/uw_mm/src/mm_interfaces -DCMAKE_INSTALL_PREFIX=/home/nums/uw_mm/install/mm_interfaces

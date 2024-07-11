@@ -1,0 +1,63 @@
+[1.895s] Invoking command in '/home/nums/uw_mm/build/mm_interfaces': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake /home/nums/uw_mm/src/mm_interfaces -DCMAKE_INSTALL_PREFIX=/home/nums/uw_mm/install/mm_interfaces
+[2.360s] -- The C compiler identification is GNU 11.4.0
+[2.851s] -- The CXX compiler identification is GNU 11.4.0
+[2.926s] -- Detecting C compiler ABI info
+[3.381s] -- Detecting C compiler ABI info - done
+[3.437s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.439s] -- Detecting C compile features
+[3.442s] -- Detecting C compile features - done
+[3.465s] -- Detecting CXX compiler ABI info
+[3.980s] -- Detecting CXX compiler ABI info - done
+[4.033s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.035s] -- Detecting CXX compile features
+[4.039s] -- Detecting CXX compile features - done
+[4.063s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.159s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.765s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.789s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.837s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.555s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[7.557s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[7.557s]   mm_interfaces --arguments-file
+[7.558s]   /home/nums/uw_mm/build/mm_interfaces/rosidl_adapter__arguments__mm_interfaces.json
+[7.559s]   --output-dir
+[7.561s]   /home/nums/uw_mm/build/mm_interfaces/rosidl_adapter/mm_interfaces
+[7.562s]   --output-file
+[7.563s]   /home/nums/uw_mm/build/mm_interfaces/rosidl_adapter/mm_interfaces.idls)
+[7.563s]   returned error code 1:
+[7.564s] 
+[7.565s]   Error processing 'bool A' of 'mm_interfaces/JoystickButtons': ''A' is an
+[7.566s]   invalid field name.  It should have the pattern
+[7.566s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[7.567s] 
+[7.568s]   Traceback (most recent call last):
+[7.569s] 
+[7.570s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[7.570s]       return _run_code(code, main_globals, None,
+[7.571s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[7.572s]       exec(code, run_globals)
+[7.573s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[7.573s]       sys.exit(main())
+[7.574s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[7.575s]       abs_idl_file = convert_to_idl(
+[7.576s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[7.576s]       return convert_msg_to_idl(
+[7.577s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[7.578s]       msg = parse_message_string(package_name, input_file.stem, content)
+[7.578s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[7.579s]       fields.append(Field(
+[7.580s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[7.580s]       raise NameError(
+[7.581s] 
+[7.582s]   NameError: 'A' is an invalid field name.  It should have the pattern
+[7.583s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[7.583s] 
+[7.584s] Call Stack (most recent call first):
+[7.585s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[7.586s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[7.586s] 
+[7.587s] [0m
+[7.588s] -- Configuring incomplete, errors occurred!
+[7.589s] See also "/home/nums/uw_mm/build/mm_interfaces/CMakeFiles/CMakeOutput.log".
+[7.605s] Invoked command in '/home/nums/uw_mm/build/mm_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/nums/uw_mm/install/mm_client:/opt/ros/humble /usr/bin/cmake /home/nums/uw_mm/src/mm_interfaces -DCMAKE_INSTALL_PREFIX=/home/nums/uw_mm/install/mm_interfaces

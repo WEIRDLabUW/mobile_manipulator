@@ -1,0 +1,6 @@
+{
+  "package_name": "mm_interfaces",
+  "non_idl_tuples": [
+    "/home/nums/uw_mm/src/mm_interfaces:msg/JoystickButtons.msg"
+  ]
+}

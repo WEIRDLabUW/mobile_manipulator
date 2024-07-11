@@ -1,0 +1,27 @@
+[4.510s] Invoking command in '/home/nums/uw_mm/src/mm_client': PYTHONPATH=/home/nums/uw_mm/build/mm_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mm_client build --build-base /home/nums/uw_mm/build/mm_client/build install --record /home/nums/uw_mm/build/mm_client/install.log --single-version-externally-managed install_data
+[6.211s] running egg_info
+[6.216s] writing ../../build/mm_client/mm_client.egg-info/PKG-INFO
+[6.217s] writing dependency_links to ../../build/mm_client/mm_client.egg-info/dependency_links.txt
+[6.218s] writing entry points to ../../build/mm_client/mm_client.egg-info/entry_points.txt
+[6.219s] writing requirements to ../../build/mm_client/mm_client.egg-info/requires.txt
+[6.219s] writing top-level names to ../../build/mm_client/mm_client.egg-info/top_level.txt
+[6.231s] reading manifest file '../../build/mm_client/mm_client.egg-info/SOURCES.txt'
+[6.237s] writing manifest file '../../build/mm_client/mm_client.egg-info/SOURCES.txt'
+[6.238s] running build
+[6.239s] running build_py
+[6.240s] copying mm_client/mm_client_node.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client
+[6.240s] copying mm_client/OculusController.py -> /home/nums/uw_mm/build/mm_client/build/lib/mm_client
+[6.246s] running install
+[6.248s] running install_lib
+[6.254s] copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/mm_client_node.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client
+[6.255s] copying /home/nums/uw_mm/build/mm_client/build/lib/mm_client/OculusController.py -> /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client
+[6.259s] byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/mm_client_node.py to mm_client_node.cpython-310.pyc
+[6.263s] byte-compiling /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client/OculusController.py to OculusController.cpython-310.pyc
+[6.265s] running install_data
+[6.266s] running install_egg_info
+[6.279s] removing '/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client-0.0.0-py3.10.egg-info' (and everything under it)
+[6.281s] Copying ../../build/mm_client/mm_client.egg-info to /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client-0.0.0-py3.10.egg-info
+[6.288s] running install_scripts
+[6.416s] Installing mm_client script to /home/nums/uw_mm/install/mm_client/lib/mm_client
+[6.420s] writing list of installed files to '/home/nums/uw_mm/build/mm_client/install.log'
+[6.530s] Invoked command in '/home/nums/uw_mm/src/mm_client' returned '0': PYTHONPATH=/home/nums/uw_mm/build/mm_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mm_client build --build-base /home/nums/uw_mm/build/mm_client/build install --record /home/nums/uw_mm/build/mm_client/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+source;share/mm_client/hook/pythonpath.ps1
+source;share/mm_client/hook/pythonpath.dsv
+source;share/mm_client/hook/pythonpath.sh

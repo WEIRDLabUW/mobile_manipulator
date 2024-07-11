@@ -1,0 +1,21 @@
+[4.547s] Invoking command in '/home/nums/uw_mm/src/mm_client': PYTHONPATH=/home/nums/uw_mm/build/mm_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mm_client build --build-base /home/nums/uw_mm/build/mm_client/build install --record /home/nums/uw_mm/build/mm_client/install.log --single-version-externally-managed install_data
+[6.421s] running egg_info
+[6.426s] writing ../../build/mm_client/mm_client.egg-info/PKG-INFO
+[6.427s] writing dependency_links to ../../build/mm_client/mm_client.egg-info/dependency_links.txt
+[6.429s] writing entry points to ../../build/mm_client/mm_client.egg-info/entry_points.txt
+[6.430s] writing requirements to ../../build/mm_client/mm_client.egg-info/requires.txt
+[6.431s] writing top-level names to ../../build/mm_client/mm_client.egg-info/top_level.txt
+[6.443s] reading manifest file '../../build/mm_client/mm_client.egg-info/SOURCES.txt'
+[6.450s] writing manifest file '../../build/mm_client/mm_client.egg-info/SOURCES.txt'
+[6.451s] running build
+[6.452s] running build_py
+[6.461s] running install
+[6.462s] running install_lib
+[6.474s] running install_data
+[6.475s] running install_egg_info
+[6.491s] removing '/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client-0.0.0-py3.10.egg-info' (and everything under it)
+[6.497s] Copying ../../build/mm_client/mm_client.egg-info to /home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages/mm_client-0.0.0-py3.10.egg-info
+[6.503s] running install_scripts
+[6.707s] Installing mm_client_node script to /home/nums/uw_mm/install/mm_client/lib/mm_client
+[6.712s] writing list of installed files to '/home/nums/uw_mm/build/mm_client/install.log'
+[6.840s] Invoked command in '/home/nums/uw_mm/src/mm_client' returned '0': PYTHONPATH=/home/nums/uw_mm/build/mm_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nums/uw_mm/install/mm_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mm_client build --build-base /home/nums/uw_mm/build/mm_client/build install --record /home/nums/uw_mm/build/mm_client/install.log --single-version-externally-managed install_data
