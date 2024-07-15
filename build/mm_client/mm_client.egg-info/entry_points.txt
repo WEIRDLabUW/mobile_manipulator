@@ -1,3 +1,0 @@
-[console_scripts]
-mm_client_node = mm_client.mm_client_node:main
-

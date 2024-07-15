@@ -1,4 +1,0 @@
-source;share/mm_interfaces/local_setup.bash
-source;share/mm_interfaces/local_setup.dsv
-source;share/mm_interfaces/local_setup.sh
-source;share/mm_interfaces/local_setup.zsh
