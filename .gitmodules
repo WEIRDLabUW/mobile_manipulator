@@ -1,3 +1,0 @@
-[submodule "src/mm_client/mm_client/oculus_reader"]
-	path = src/mm_client/mm_client/oculus_reader
-	url = https://github.com/rail-berkeley/oculus_reader.git
