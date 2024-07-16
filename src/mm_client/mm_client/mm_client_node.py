@@ -10,7 +10,7 @@ class MMClientNode(Node):
 		self.oculus_controller = OculusController()
 		print('MM Client: Oculus Controller Initialized-----')
 		self.right_js_info_pub = self.create_publisher(OculusJoystickInfo, '/right_js_info', 10)
-		self.timer = self.create_timer(0.1, self.publishJsInfo)
+		self.timer = self.create_timer(0.05, self.publishJsInfo)
 
 	def publishJsInfo(self):
 		pos = self.oculus_controller.getCurrentPosition()
