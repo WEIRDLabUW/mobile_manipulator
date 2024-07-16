@@ -7,3 +7,4 @@ bool x
 bool y
 bool ltr
 bool lg
+geometry_msgs/Pose2D joystick

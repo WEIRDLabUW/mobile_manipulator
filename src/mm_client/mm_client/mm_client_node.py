@@ -33,6 +33,9 @@ class MMClientNode(Node):
 		info.b = buttons['B']
 		info.rtr = buttons['RTr']
 		info.rg = buttons['RG']
+		js_values = buttons['rightJS']
+		info.joystick.x = js_values[0]
+		info.joystick.y = js_values[1]
 		return info
 
 	def getLeftControllerInfo(self, transformations, buttons):
@@ -45,6 +48,9 @@ class MMClientNode(Node):
 		info.y = buttons['Y']
 		info.ltr = buttons['LTr']
 		info.lg = buttons['LG']
+		js_values = buttons['leftJS']
+		info.joystick.x = js_values[0]
+		info.joystick.y = js_values[1]
 		return info
 
 
