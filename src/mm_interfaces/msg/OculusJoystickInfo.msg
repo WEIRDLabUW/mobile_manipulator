@@ -3,3 +3,7 @@ bool a
 bool b
 bool rtr
 bool rg
+bool x
+bool y
+bool ltr
+bool lg
