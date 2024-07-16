@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from mm_interfaces.msg import OculusJoystickInfo
+from mm_interfaces.msg import OculusControllerInfo
 from .UR5Wrapper import UR5Wrapper
 from .math_utils import convertControllerAxesToUR5
 import numpy as np
@@ -11,31 +11,55 @@ class MMServerNode(Node):
 		self.get_logger().info('Initialized MM Server')
 
 		# Arm Control
-		self.right_robot_ip = "192.168.2.2"
+		right_robot_ip = "192.168.2.2"
+		left_robot_ip = "192.168.1.2"
+		self.initAndResetArms(right_robot_ip, left_robot_ip)
 		self.arm_timeout = 0.25
-		self.right_robot = UR5Wrapper(self.right_robot_ip)
+		self.prev_held_right_trigger = False
+		self.prev_held_left_trigger = False
+		# Current position of the controllers
+		self.right_controller_position = np.array([0.,0.,0.,0.,0.,0.])
+		self.left_controller_position = np.array([0.,0.,0.,0.,0.,0.])
+		# Current controller home position from which end
+		# effector deltas are calculated 
+		self.right_controller_home = np.array([0.,0.,0.,0.,0.,0.])
+		self.left_controller_home = np.array([0.,0.,0.,0.,0.,0.])
+
+		self.right_controller_info_sub = self.create_subscription(
+			OculusControllerInfo, '/right_controller_info',
+			self.rightControllerCallback, 10)
+		self.left_controller_info_sub = self.create_subscription(
+			OculusControllerInfo, '/left_controller_info',
+			self.leftControllerCallback, 10)
+
+	def initAndResetArms(self, right_robot_ip, left_robot_ip):
+		self.right_robot = UR5Wrapper(right_robot_ip)
 		self.get_logger().info(
 			"MM Server: Right Arm Initialized. Resetting to Initial Position")
+		self.left_robot = UR5Wrapper(left_robot_ip)
+		self.get_logger().info(
+			"MM Server: Left Arm Initialized. Resetting to Initial Position")
 		self.right_robot.reset_to_init()
 		self.get_logger().info(
 			"MM Server: Finished resetting right arm to initial position")
-		self.prev_held_right_trigger = False
-		# Current position of the right controller
-		self.right_controller_position = np.array([0.,0.,0.,0.,0.,0.])
-		# Current right controller home position from which end
-		# effector deltas are calculated 
-		self.right_controller_home = np.array([0.,0.,0.,0.,0.,0.])
+		self.left_robot.reset_to_init()
+		self.get_logger().info(
+			"MM Server: Finished resetting left arm to initial position")
 
-		self.right_js_info_sub = self.create_subscription(
-			OculusJoystickInfo, '/right_js_info', self.jsCallback, 10)
+	def rightControllerCallback(self, msg):
+		x = msg.pose.position.x
+		y = msg.pose.position.y
+		z = msg.pose.position.z
+		A = msg.a
+		B = msg.b
+		RTr = msg.rtr
+		RG = msg.rg
 
-
-	def jsCallback(self, msg):
-		x, y, z, a, b, rtr, rg = self.unwrapOculusJoystickMsg(msg)
 		self.setNewPosition(x, y, z,
 					  is_right_controller=True, is_home_position=False)
+		
 		# Only consider moving the arm if the trigger is pressed
-		if rtr:
+		if RTr:
 			# Set a new home position if this is a new trigger press
 			if not self.prev_held_right_trigger:
 				self.get_logger().info("MM Server: New Right Trigger")
@@ -43,25 +67,58 @@ class MMServerNode(Node):
 						is_right_controller=True, is_home_position=True)
 				self.right_robot.set_home_position()
 			
-			delta = self.getRightControllerDelta()
+			delta = self.getControllerDelta(is_right_controller=True)
 			delta = convertControllerAxesToUR5(delta)
 			self.right_robot.go_to_position(delta, wait=False)
 		else:
 			self.right_robot.stop()
-		self.prev_held_right_trigger = rtr
+		self.prev_held_right_trigger = RTr
 
-	def unwrapOculusJoystickMsg(self, msg):
-		return msg.pose.position.x, msg.pose.position.y, msg.pose.position.z, \
-			msg.a, msg.b, msg.rtr, msg.rg
+	def leftControllerCallback(self, msg):
+		x = msg.pose.position.x
+		y = msg.pose.position.y
+		z = msg.pose.position.z
+		X_pressed = msg.x
+		Y_pressed = msg.y
+		LTr = msg.ltr
+		LG = msg.lg
+
+		self.setNewPosition(x, y, z,
+				is_right_controller=False, is_home_position=False)
+		
+		# Only consider moving the arm if the trigger is pressed
+		if LTr:
+			# Set a new home position if this is a new trigger press
+			if not self.prev_held_left_trigger:
+				self.get_logger().info("MM Server: New Left Trigger")
+				self.setNewPosition(x, y, z,
+						is_right_controller=False, is_home_position=True)
+				self.left_robot.set_home_position()
+			
+			delta = self.getControllerDelta(is_right_controller=False)
+			delta = convertControllerAxesToUR5(delta)
+			self.left_robot.go_to_position(delta, wait=False)
+		else:
+			self.left_robot.stop()
+		self.prev_held_left_trigger = LTr
 	
 	def setNewPosition(self, x, y, z, is_right_controller=True, is_home_position=False):
-		if is_home_position:
-			self.right_controller_home = np.array([x, y, z, 0., 0., 0.])
+		if is_right_controller:
+			if is_home_position:
+				self.right_controller_home = np.array([x, y, z, 0., 0., 0.])
+			else:
+				self.right_controller_position = np.array([x, y, z, 0., 0., 0.])
 		else:
-			self.right_controller_position = np.array([x, y, z, 0., 0., 0.])
+			if is_home_position:
+				self.left_controller_home = np.array([x, y, z, 0., 0., 0.])
+			else:
+				self.left_controller_position = np.array([x, y, z, 0., 0., 0.])
 
-	def getRightControllerDelta(self):
-		return self.right_controller_position - self.right_controller_home
+	def getControllerDelta(self, is_right_controller=True):
+		if is_right_controller:
+			return self.right_controller_position - self.right_controller_home
+		else:
+			return self.left_controller_position - self.left_controller_home
 
 
 def main(args=None):
