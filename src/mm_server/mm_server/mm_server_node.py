@@ -1,8 +1,9 @@
 import rclpy
 from rclpy.node import Node
+from geometry_msgs.msg import Twist
 from mm_interfaces.msg import OculusControllerInfo
 from .UR5Wrapper import UR5Wrapper
-from .math_utils import convertControllerAxesToUR5
+from .math_utils import *
 import numpy as np
 
 class MMServerNode(Node):
@@ -31,6 +32,7 @@ class MMServerNode(Node):
 		self.left_controller_info_sub = self.create_subscription(
 			OculusControllerInfo, '/left_controller_info',
 			self.leftControllerCallback, 10)
+		self.base_vel_pub = self.create_publisher(Twist, '/cmd_vel', 10)
 
 	def initAndResetArms(self, right_robot_ip, left_robot_ip):
 		self.right_robot = UR5Wrapper(right_robot_ip)
@@ -54,6 +56,8 @@ class MMServerNode(Node):
 		B = msg.b
 		RTr = msg.rtr
 		RG = msg.rg
+		joystick_x = msg.joystick.x
+		joystick_y = msg.joystick.y
 
 		self.setNewPosition(x, y, z,
 					  is_right_controller=True, is_home_position=False)
@@ -67,9 +71,13 @@ class MMServerNode(Node):
 						is_right_controller=True, is_home_position=True)
 				self.right_robot.set_home_position()
 			
+			# Move arm
 			delta = self.getControllerDelta(is_right_controller=True)
 			delta = convertControllerAxesToUR5(delta)
 			self.right_robot.go_to_position(delta, wait=False)
+
+			# Move base translationally
+			self.sendTranslationalBaseVelocities(joystick_x, joystick_y)
 		else:
 			self.right_robot.stop()
 		self.prev_held_right_trigger = RTr
@@ -82,6 +90,8 @@ class MMServerNode(Node):
 		Y_pressed = msg.y
 		LTr = msg.ltr
 		LG = msg.lg
+		joystick_x = msg.joystick.x
+		joystick_y = msg.joystick.y
 
 		self.setNewPosition(x, y, z,
 				is_right_controller=False, is_home_position=False)
@@ -95,9 +105,13 @@ class MMServerNode(Node):
 						is_right_controller=False, is_home_position=True)
 				self.left_robot.set_home_position()
 			
+			# Move arm
 			delta = self.getControllerDelta(is_right_controller=False)
 			delta = convertControllerAxesToUR5(delta)
 			self.left_robot.go_to_position(delta, wait=False)
+
+			# Move base rotationally
+			self.sendRotationalBaseVelocities(joystick_x, joystick_y)
 		else:
 			self.left_robot.stop()
 		self.prev_held_left_trigger = LTr
@@ -119,7 +133,27 @@ class MMServerNode(Node):
 			return self.right_controller_position - self.right_controller_home
 		else:
 			return self.left_controller_position - self.left_controller_home
+		
+	def sendTranslationalBaseVelocities(self, joystick_x, joystick_y):
+		base_velocities = convertJoystickValuesToBaseVelocities(
+			joystick_x, joystick_y)
+		vel = Twist()
+		vel.linear.x = base_velocities[0]
+		vel.linear.y = base_velocities[1]
+		vel.linear.z = 0.0
+		self.base_vel_pub.publish(vel)
 
+	def sendRotationalBaseVelocities(self, joystick_x, joystick_y):
+		base_velocities = convertJoystickValuesToBaseVelocities(
+			joystick_x, joystick_y)
+		y_vel = base_velocities[1]
+		rotate_right = True if y_vel > 0 else False
+		vel = Twist()
+		if rotate_right:
+			vel.angular.z = y_vel
+		else:
+			vel.angular.z = y_vel
+		self.base_vel_pub.publish(vel)
 
 def main(args=None):
 	rclpy.init()

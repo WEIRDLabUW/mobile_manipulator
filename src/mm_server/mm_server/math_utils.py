@@ -22,6 +22,16 @@ def convertControllerAxesToUR5(controllerDelta):
     controllerDelta[3] *= -1
     return controllerDelta
 
+def convertJoystickValuesToBaseVelocities(vel_x, vel_y):
+    # Scale velocities by 0.2 to limit base speed
+    vel_x = vel_x * 0.2
+    vel_y = vel_y * 0.2
+    # x and y axes between oculus controller and base are flipped
+    # polarity is also flipped in the x direction
+    base_vel_x = vel_y
+    base_vel_y = -1 * vel_x
+    return [base_vel_x, base_vel_y]
+
 def printArray(arr):
     out = "["
     for i in arr:
